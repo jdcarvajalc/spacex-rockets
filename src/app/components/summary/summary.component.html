@@ -1,0 +1,13 @@
+<div class="mdl-card stock-card mdl-shadow--2dp">
+    <span>
+        <div class="mdl-card__title" style="width: 100%;">
+            <h4 id="titulo-tarjeta">{{ rocket.rocket_name }}</h4>
+            <hr id="divisor">
+            <img id="imagen-cargada" src="{{ rocket.flickr_images[0] }}" alt="{{ rocket.rocket_name }}">
+            <hr id="divisor">
+            <h5>Height: </h5><h6>{{ rocket.height.meters }} [m]</h6><br>
+            <h5>Company: </h5><h6>{{ rocket.company }}</h6><br>
+        </div>
+    </span>
+
+</div>

@@ -1,0 +1,21 @@
+<div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--4-col">
+        <select [(ngModel)]="srcSelect" name="" id="leftlist" size="5" multiple class="mdl-textfield mdl-js-textfield" style="height: 100%;">
+            <option *ngFor="let opc of source">{{ opc }}</option>
+        </select>
+    </div>
+    <div class="mdl-cell mdl-cell--1-col">
+        <div class="contenedor-botones">
+            <button (click)="selectAll()" id="selallbtn" class="botones-select"> >></button>
+            <button (click)="put()" class="botones-select"> ></button>
+            <button (click)="get()" class="botones-select"> <</button>
+            <button (click)="unSelectAll()" id="unselallbtn" class="botones-select"> <<</button>
+        </div>
+
+    </div>
+    <div class="mdl-cell mdl-cell--4-col">
+        <select [(ngModel)]="trgSelect" name="" id="rightlist" size="5" multiple class="mdl-textfield mdl-js-textfield" style="height: 100%;">
+            <option *ngFor="let opc2 of target"> {{opc2}}</option>
+        </select>
+    </div>
+</div>

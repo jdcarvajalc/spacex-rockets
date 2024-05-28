@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #d9d4d3;
+}/* You can add global styles to this file, and also import other style files */
+
+.mdl-layout__header{
+    background-color: #0d1e2b;
+}
+
+#titulo-general{
+    font-size: 32px;
+}
+
+.mdl-navigation__link{
+    font-size: 24px;
+}

@@ -1,0 +1,58 @@
+:host .stock-card{
+    background: white;
+    width: 100%;
+    border-radius: 40px;
+}
+
+:host .stock-card.increase{
+    background: #558b2f;
+    color: white;
+}
+
+:host .stock-card.decrease{
+    background-color: #c62828;
+    color: #fff;
+}
+
+.mdl-layout_content{
+    width: 100%;
+}
+
+.mdl-card__title{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#titulo-tarjeta{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1f3c4d;
+}
+
+#imagen-cargada{
+    width: 90%; height: 200px; margin: 16px 0; border-radius: 20px;box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#divisor{
+    background-color: #d9d4d3;
+    width: 100%;
+    color: #d9d4d3;
+    height: .1px;
+}
+
+h4{
+    margin: 16px 0 16px 0;
+}
+
+h5{
+    margin: 0;
+    color: #45637d;
+    text-transform: capitalize;
+}
+
+h6{
+    margin: 0;
+    color: #95a2b1;
+}
+
