@@ -17,7 +17,7 @@ Run `npm install -g @angular/cli`
 Run `ng version`, at least it has to be v17.0.0.
 
 ### Clone the repository locally
-Run `git clone http://github.com/jdcarvajalc/spacex-rockets.git`
+Run `git clone http://github.com/jdcarvajalc/spacex-rockets.git` or `git clone git@github.com:jdcarvajalc/spacex-rockets.git`
 
 For going to main folder, in your terminal run `cd /spacex-rockets/`
 
